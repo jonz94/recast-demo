@@ -1,0 +1,21 @@
+{
+  "name": "recast-playground",
+  "version": "1.0.0",
+  "license": "0BSD",
+  "author": {
+    "name": "jonz94",
+    "email": "jody16888@gmail.com"
+  },
+  "scripts": {
+    "exec:react": "tsx react-example.ts",
+    "exec:typescript": "tsx typescript-example.ts"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.20.7",
+    "recast": "^0.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "tsx": "^3.12.2"
+  }
+}
